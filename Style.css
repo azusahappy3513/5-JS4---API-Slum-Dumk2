@@ -1,0 +1,83 @@
+.start_title{
+  z-index: index 10;
+  height: 700px;
+  width:  1200px;
+ }
+ .demo{text-align: center;}
+@keyframes sliderAnimation {
+    100% {
+      transform: translateX(-15%);
+    }
+ }
+
+ .Musix{display: flex;
+        justify-content: space-between;}
+ .Music{text-align: center;}
+ h1{font-size: larger;}
+ h2{font-size: larger;}
+
+.autoplay-slider{
+    display:flex;
+    min-width: 50%;
+    width: min-content;
+    animation: 10s linear infinite sliderAnimation;
+  }
+  .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9,.slide10 {
+    height:150px;
+    width:100px;
+    margin: 0px;
+    position: relative;
+  } 
+    #result{
+      text-align: center;
+      font-size: 50px;
+      color: brown;
+      font-style: italic;
+      font-weight: bolder;
+      margin:0 0 0;
+      display: flex;
+    }
+    table {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+  }
+
+    .onsei{ 
+      margin: 50px,30px,auto;
+    position: relative;
+     display: inline-block;
+      margin: 0;
+     padding: 10px;
+      color: rgb(239, 37, 178);
+     font-size: 1rem;
+     background: #545755;
+     }
+
+    .result_1{margin:50px 0 auto;
+    display:flex;}
+    /* .abc{text-align: center;} */
+    .ab{text-align: center;
+          display: flex;}
+
+    .anata{ flex: auto;
+            display: flex;}
+    .aite{flex: auto;
+          display: flex;}
+
+    .Win_image{text-align: center;}
+
+    .fukidashi .text{
+      display: flex;
+      flex-flow: wrap;
+      justify-content: flex-end;
+      width: calc(100% - 118px);
+    }
+
+  /* .slide1,.slide2,.slide3,.slide4,.slide5:hover{height:320px; */
+  /* .sub_copy{ */
+  /* .row{ */
+  /* .Battle{ */
+
+
+
